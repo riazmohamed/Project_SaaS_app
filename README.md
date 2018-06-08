@@ -2,7 +2,7 @@
 
 SaaS Application
 Subscription based web Application where Investors and Web developers meet.
-http://riazz.com
+- final domain name to go here !!!!
 
 Things you may want to cover:
 
