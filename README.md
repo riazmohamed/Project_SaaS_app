@@ -1,7 +1,8 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Project Management Application (SaaS)
+Subscription based web Application for project managemnt
+http://riazz.com
 
 Things you may want to cover:
 
