@@ -1,7 +1,7 @@
 # README
 
 Project Management Application (SaaS)
-Subscription based web Application for project managemnt
+Subscription based web Application for project managemnt.
 http://riazz.com
 
 Things you may want to cover:
