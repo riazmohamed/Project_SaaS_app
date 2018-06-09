@@ -17,8 +17,12 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <!--<a class="navbar-brand" href="#">SaaS</a>-->
-          <%= link_to 'SaaS', root_path, class: 'navbar-brand' %>
+          
+          <%= link_to root_path, class: 'navbar-brand' do %>
+            <i class="fa fa-users"></i>
+          <% end %>
+          
+          <%= link_to 'Developer Hub', root_path, class: 'navbar-brand' %>
         </div>
         
         <div>
