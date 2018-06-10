@@ -24,7 +24,14 @@
           
           <%= link_to 'Developer Hub', root_path, class: 'navbar-brand' %>
         </div>
-        
+        <div class="nav navbar-nav navbar-right">
+          <% if current_user %>
+            <%= button_to "Sign Out", destroy_user_session_path, class: 'btn btn-success navbar-btn', method: :delete %>
+          <% else %>
+            <%= link_to "Log In", new_user_session_path, class: 'btn btn-primary navbar-btn', method: :get %></li>
+            <%= link_to "Sign Up", new_user_registration_path,  class: 'btn btn-success navbar-btn', method: :get %></li>
+          <% end %>
+        </div>
         <div>
           <ul class="nav navbar-nav navbar-right">
             <li><%= link_to "About", about_path %></li>
